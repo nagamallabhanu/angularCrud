@@ -1,0 +1,7 @@
+<!-- <div  *ngFor="let employee of employees">
+  <app-displayemployee [employee]="employee"></app-displayemployee>
+</div> -->
+<button (click)="displayNextEmp()" class="btn btn-primary" >View Next Employee</button>
+<br/>
+<br/>
+<app-displayemployee [employee]="currEmp"></app-displayemployee>
